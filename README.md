@@ -5,6 +5,14 @@ Play **Plants vs. Zombies Fusion** (PvZ Fusion, English translation) on your Mac
 [![Latest Release](https://img.shields.io/github/v/release/ganiyevuz/PvZ-Fusion-macOS)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ganiyevuz/PvZ-Fusion-macOS/total)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases)
 
+<p align="center">
+  <img src="screenshots/in-game.jpg" alt="PvZ Fusion running in a Mac window: a Day level with plants and zombies" width="100%">
+</p>
+<p align="center">
+  <img src="screenshots/main-menu.jpg" alt="The main menu on a Mac" width="49%">
+  <img src="screenshots/choose-plants.jpg" alt="Choosing plants before a level" width="49%">
+</p>
+
 This repository hosts the downloads. A new version is published here when the English translation releases one.
 
 ---
@@ -64,11 +72,11 @@ The game lists these on its Credits screen. On a Mac keyboard:
 | **T** | Show projectile damage | Same key; turn it on in the game's settings first |
 | **F** | Full screen | macOS full screen (also **Ctrl + Cmd + F**) |
 | **F1** | Hide / show the game's interface | **fn + F1** |
-| **F10** | Hide / show metal objects | **fn + F10**; flips **View → Hide Metal Objects** (next version) |
+| **F10** | Hide / show metal objects | **fn + F10**; flips **View → Hide Metal Objects** |
 | **Insert** | Open the save folder | **fn + Return**, or keypad Enter |
 | **Page Up** | Open the online Almanac | **fn + ↑** |
-| **Left Shift** (hold while planting) | Fuse with the pumpkin around a plant | Left **Shift**, with **View → Fusion Shortcuts** on (next version) |
-| **Left Alt** (hold while planting) | Fuse with the pot under a plant | Left **Option**, with **View → Fusion Shortcuts** on (next version) |
+| **Left Shift** (hold while planting) | Fuse with the pumpkin around a plant | Left **Shift**, with **View → Fusion Shortcuts** on |
+| **Left Alt** (hold while planting) | Fuse with the pot under a plant | Left **Option**, with **View → Fusion Shortcuts** on |
 
 The function keys need **fn** unless "Use F1, F2, etc. keys as standard function keys" is on in **System Settings → Keyboard**. Some mini-games have their own keys (WASD, Space, the arrow keys); their tips show them.
 
@@ -87,7 +95,7 @@ Keys pressed with **Cmd** go to the menu bar, never to the game. The mouse wheel
 
 ## Music and PC mods
 
-**Coming in the next version** (not in the current download yet). Three extras from the PC version, all in the **View** menu:
+Three extras from the PC version, all in the **View** menu:
 
 - **Fan Music** (on by default): the PC mods' music pack replaces the game's own music for the main menu, Zen Garden, each adventure area (with its drum layer), the boss and more: fan-made tracks, and the original game soundtrack for the rest. Untick **View → Fan Music** to hear the game's own music; the change applies from the next track. When a track hasn't been loaded yet, the game's own plays for a moment while it loads in the background, and then the new one takes over. The music comes from the PC translation project, [Teyliu/PVZF-Translation](https://github.com/Teyliu/PVZF-Translation); credits are below.
 - **Hide Metal Objects** (off by default): turn it on in **View → Hide Metal Objects**, or press **F10** (fn + F10) as on PC, to hide the metal items zombies drop. It's from the PC "Blooms_QOL" mod by Blooms. Turning it off doesn't bring back items already hidden.
