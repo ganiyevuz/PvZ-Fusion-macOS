@@ -40,6 +40,7 @@ Intel Macs are not supported.
   - **F1 / F10**: hold **fn**, unless "Use F1, F2, etc. keys as standard function keys" is on in System Settings → Keyboard.
   - **Left Alt** is the **Option** key.
 - **Frame rate:** the game runs at 60 fps. On a 120 Hz (ProMotion) display you can switch to 120 fps in **View → Frame Rate**; the choice is remembered.
+- **Updates:** at launch the app checks this page for a newer version and offers it once; **PvZ Fusion → Check for Updates…** checks any time. To turn the launch check off: `defaults write dev.kotib.pvzf-macos CheckForUpdates -bool NO`.
 - **Saves** are kept in `~/Library/Application Support/pvzf/pvzf-macos`, so updating the app keeps your progress. To update, drag the new version over the old one.
 - **If macOS asks to reopen windows** after the game was closed unexpectedly, just dismiss it.
 
