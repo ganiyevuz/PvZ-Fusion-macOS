@@ -47,21 +47,21 @@ The game lists these on its Credits screen. On a Mac keyboard:
 
 | Key | What it does | On a Mac |
 |---|---|---|
-| **1** | Shovel | |
-| **2** | Gloves | |
-| **3** | Slow Mode | |
-| **4** | Mallet | |
-| **5** | Wheelbarrow | |
-| **Q** | Show plant health | |
-| **W / R** | Show zombie health | |
-| **E** | Coffee Bean | |
-| **P** | Switch Kirov sound effects | |
-| **V** | Switch gloves | |
-| **C** | Look up the plant under the mouse in the Almanac | |
-| **H** | Show the stats of the plant under the mouse | |
-| **R** | Turn a plant around before planting, in TD mode | |
-| **B** | Open Plant Storage during a level | |
-| **T** | Show projectile damage | Turn it on in the game's settings first |
+| **1** | Shovel | Same key, works as is |
+| **2** | Gloves | Same key, works as is |
+| **3** | Slow Mode | Same key, works as is |
+| **4** | Mallet | Same key, works as is |
+| **5** | Wheelbarrow | Same key, works as is |
+| **Q** | Show plant health | Same key, works as is |
+| **W / R** | Show zombie health | Same key, works as is |
+| **E** | Coffee Bean | Same key, works as is |
+| **P** | Switch Kirov sound effects | Same key, works as is |
+| **V** | Switch gloves | Same key, works as is |
+| **C** | Look up the plant under the mouse in the Almanac | Same key, works as is |
+| **H** | Show the stats of the plant under the mouse | Same key, works as is |
+| **R** | Turn a plant around before planting, in TD mode | Same key, works as is |
+| **B** | Open Plant Storage during a level | Same key, works as is |
+| **T** | Show projectile damage | Same key; turn it on in the game's settings first |
 | **F** | Full screen | macOS full screen (also **Ctrl + Cmd + F**) |
 | **F1** | Hide / show the game's interface | **fn + F1** |
 | **F10** | Hide / show metal objects | **fn + F10**; flips **View → Hide Metal Objects** (next version) |
