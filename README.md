@@ -33,6 +33,12 @@ Intel Macs are not supported.
 
 ## Good to know
 
+- **Hotkeys:** the game's keyboard shortcuts work (listed on its Credits screen). On a Mac keyboard:
+  - **F** toggles macOS full screen.
+  - **Insert** (open save folder): press **fn + Return** (or keypad Enter), since Mac keyboards have no Insert key.
+  - **Page Up** (online almanac): **fn + ↑**.
+  - **F1 / F10**: hold **fn**, unless "Use F1, F2, etc. keys as standard function keys" is on in System Settings → Keyboard.
+  - **Left Alt** is the **Option** key.
 - **Frame rate:** the game runs at 60 fps. On a 120 Hz (ProMotion) display you can switch to 120 fps in **View → Frame Rate**; the choice is remembered.
 - **Saves** are kept in `~/Library/Application Support/pvzf/pvzf-macos`, so updating the app keeps your progress. To update, drag the new version over the old one.
 - **If macOS asks to reopen windows** after the game was closed unexpectedly, just dismiss it.
