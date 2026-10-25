@@ -1,16 +1,17 @@
-# PvZ Fusion for Mac
+# PvZ Fusion for Mac (macOS, Apple Silicon)
 
-Plants vs. Zombies Fusion (English translation) as a native app for Apple Silicon Macs.
+Play **Plants vs. Zombies Fusion** (PvZ Fusion, English translation) on your Mac. This is a native app for Apple Silicon Macs (M1, M2, M3, M4); it is not an emulator or a phone simulator.
 
-[![Latest Release](https://img.shields.io/github/v/release/ganiyevuz/pvzf-macos-releases)](https://github.com/ganiyevuz/pvzf-macos-releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/ganiyevuz/PvZ-Fusion-macOS)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ganiyevuz/PvZ-Fusion-macOS/total)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases)
 
-This repository only hosts the downloads. A new version is published here when the English translation releases one.
+This repository hosts the downloads. A new version is published here when the English translation releases one.
 
 ---
 
 ## Download
 
-Get the latest `.dmg` from the **[Releases page](https://github.com/ganiyevuz/pvzf-macos-releases/releases/latest)**.
+Get the latest `.dmg` from the **[Releases page](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)**.
 
 ## Installation
 
@@ -35,6 +36,10 @@ Intel Macs are not supported.
 - **Frame rate:** the game runs at 60 fps. On a 120 Hz (ProMotion) display you can switch to 120 fps in **View → Frame Rate**; the choice is remembered.
 - **Saves** are kept in `~/Library/Application Support/pvzf/pvzf-macos`, so updating the app keeps your progress. To update, drag the new version over the old one.
 - **If macOS asks to reopen windows** after the game was closed unexpectedly, just dismiss it.
+
+## Problems?
+
+Open an [issue](https://github.com/ganiyevuz/PvZ-Fusion-macOS/issues) and include your macOS version and Mac model (for example "macOS 15.2, MacBook Air M2").
 
 ## Credits
 
