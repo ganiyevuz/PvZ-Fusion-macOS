@@ -43,8 +43,17 @@ Open an [issue](https://github.com/ganiyevuz/PvZ-Fusion-macOS/issues) and includ
 
 ## Credits
 
+- **macOS port** — Jakhongir Ganiev ([@ganiyevuz](https://github.com/ganiyevuz)).
 - **PvZ Fusion** — the original Chinese fan-made game, by its authors. All game content and assets belong to them.
 - **English translation** — [silvershadowkat/pvzf-android-translation](https://github.com/silvershadowkat/pvzf-android-translation). Each Mac release repackages that project's Android release.
 - **ELF loader** — based on the Nintendo Switch port [ChanseyIsTheBest/pvz_fusion_en_nx](https://github.com/ChanseyIsTheBest/pvz_fusion_en_nx).
+
+## Sharing or modifying
+
+You're welcome to share this app or build on the port. When you do, **credit Jakhongir Ganiev ([@ganiyevuz](https://github.com/ganiyevuz)) and link to this repository**. The port is MIT-licensed, so its copyright notice and license (inside the app at `Contents/Resources/Licenses/LICENSE.txt`) must stay with any copy or modified version. The DMG also includes a `Credits.txt`.
+
+PvZ Fusion's game files and assets are not covered by that license; they belong to their authors.
+
+---
 
 Plants vs. Zombies is a trademark of Electronic Arts. This is an unofficial fan project and is not affiliated with PopCap or EA.
