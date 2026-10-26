@@ -65,7 +65,8 @@ With a free Apple ID the app has to be reinstalled every 7 days to keep opening;
 - **Up to 120 fps** on ProMotion iPhones (60 in Low Power Mode, or while the phone runs hot).
 - **Sound** plays with silent mode on too.
 - **Saves** are in the Files app: **On My iPhone → PvZ Fusion → Save Data**. Copy that folder to back them up.
-- **Not on iPhone:** the Mac's View-menu extras (Fan Music, Hide Metal Objects, Fusion Shortcuts) and keyboard hotkeys. The game's Screen Mode setting is for PC windows and does nothing on a phone.
+- **Fan music:** the PC mods' music pack plays in place of the game's own tracks, as with the Mac's Fan Music switch on (always on; the iPhone has no menu bar). Credits are below.
+- **Not on iPhone:** the Mac's other View-menu extras (Hide Metal Objects, Fusion Shortcuts) and keyboard hotkeys. The game's Screen Mode setting is for PC windows and does nothing on a phone.
 
 ## Keyboard shortcuts
 
@@ -133,7 +134,7 @@ Open an [issue](https://github.com/ganiyevuz/PvZ-Fusion-macOS/issues) and includ
 - **PvZ Fusion** — the original Chinese fan-made game, by its authors. All game content and assets belong to them.
 - **English translation** — [silvershadowkat/pvzf-android-translation](https://github.com/silvershadowkat/pvzf-android-translation). Each release repackages that project's Android release for Mac and iPhone.
 - **ELF loader** — based on the Nintendo Switch port [ChanseyIsTheBest/pvz_fusion_en_nx](https://github.com/ChanseyIsTheBest/pvz_fusion_en_nx).
-- **Music (PC mods' music pack, View → Fan Music)** — Main Menu, Zen Garden - Starry Ceiling, GarZen Flora by Rollerlhite @ https://www.youtube.com/watch?v=aBj1MfvnHPE. Adventure Music - Lumi-Lawn (Day), Undead of the Night (Night), GhOuL pOoL (Pool), Mortemlights (Fog), Praize the Hills (Roof), Brainless Wit, Steamroller, "Boss2" by Xabdi @ https://youtube.com/playlist?list=PLuKXe1tVSw8Sh4K5qrUn65gbRaVNTeqjs&si=heuMbZmlYoAGUf6M. Everything Else - Original Game Soundtrack by Laura Shigihara @ https://www.youtube.com/playlist?list=PLBO2h-GzDvIbpXmK3uTNi6Fe_SE5sTFLY. Music files come from [Teyliu/PVZF-Translation](https://github.com/Teyliu/PVZF-Translation).
+- **Music (PC mods' music pack, View → Fan Music; always on iPhone)** — Main Menu, Zen Garden - Starry Ceiling, GarZen Flora by Rollerlhite @ https://www.youtube.com/watch?v=aBj1MfvnHPE. Adventure Music - Lumi-Lawn (Day), Undead of the Night (Night), GhOuL pOoL (Pool), Mortemlights (Fog), Praize the Hills (Roof), Brainless Wit, Steamroller, "Boss2" by Xabdi @ https://youtube.com/playlist?list=PLuKXe1tVSw8Sh4K5qrUn65gbRaVNTeqjs&si=heuMbZmlYoAGUf6M. Everything Else - Original Game Soundtrack by Laura Shigihara @ https://www.youtube.com/playlist?list=PLBO2h-GzDvIbpXmK3uTNi6Fe_SE5sTFLY. Music files come from [Teyliu/PVZF-Translation](https://github.com/Teyliu/PVZF-Translation).
 - **Hide Metal Objects and Fusion Shortcuts** — from the PC "Blooms_QOL" mod by Blooms.
 
 ## Sharing or modifying
