@@ -1,6 +1,6 @@
-# PvZ Fusion for Mac (macOS, Apple Silicon)
+# PvZ Fusion for Mac and iPhone (macOS, Apple Silicon, iOS)
 
-Play **Plants vs. Zombies Fusion** (PvZ Fusion, English translation) on your Mac. This is a native app for Apple Silicon Macs (M1, M2, M3, M4); it is not an emulator or a phone simulator.
+Play **Plants vs. Zombies Fusion** (PvZ Fusion, English translation) on your Mac or iPhone. These are native apps for Apple Silicon Macs (M1, M2, M3, M4) and for iPhone; neither is an emulator or a phone simulator.
 
 [![Latest Release](https://img.shields.io/github/v/release/ganiyevuz/PvZ-Fusion-macOS)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ganiyevuz/PvZ-Fusion-macOS/total)](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases)
@@ -12,6 +12,9 @@ Play **Plants vs. Zombies Fusion** (PvZ Fusion, English translation) on your Mac
   <img src="screenshots/main-menu.jpg" alt="The main menu on a Mac" width="49%">
   <img src="screenshots/choose-plants.jpg" alt="Choosing plants before a level" width="49%">
 </p>
+<p align="center">
+  <img src="screenshots/iphone-level.jpg" alt="PvZ Fusion on an iPhone 17 Pro: a level filling the screen, its buttons clear of the corners" width="100%">
+</p>
 
 This repository hosts the downloads. A new version is published here when the English translation releases one.
 
@@ -19,7 +22,7 @@ This repository hosts the downloads. A new version is published here when the En
 
 ## Download
 
-Get the latest `.dmg` from the **[Releases page](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)**.
+Get the latest release from the **[Releases page](https://github.com/ganiyevuz/PvZ-Fusion-macOS/releases/latest)**: the `.dmg` for a Mac, the `.ipa` for an iPhone (see [iPhone](#iphone) below).
 
 ## Installation
 
@@ -46,6 +49,23 @@ Intel Macs are not supported.
 - **Updates:** at launch the app checks this page for a newer version and offers it once; **PvZ Fusion → Check for Updates…** checks any time. To turn the launch check off: `defaults write dev.kotib.pvzf-macos CheckForUpdates -bool NO`.
 - **Saves** are kept in `~/Library/Application Support/pvzf/pvzf-macos`, so updating the app keeps your progress. To update, drag the new version over the old one.
 - **If macOS asks to reopen windows** after the game was closed unexpectedly, just dismiss it.
+
+## iPhone
+
+The `.ipa` isn't signed: you sign it with your own Apple ID when you install it.
+
+1. Install [Sideloadly](https://sideloadly.io) (Mac or Windows) or [AltStore](https://altstore.io).
+2. Connect your iPhone, drop `PvZ-Fusion-iOS-<version>.ipa` into it, and sign in with your Apple ID.
+3. On the iPhone, the first time: turn on **Settings → Privacy & Security → Developer Mode**, and trust your Apple ID under **Settings → General → VPN & Device Management**.
+
+With a free Apple ID the app has to be reinstalled every 7 days to keep opening; your saves stay.
+
+- **Needs** iOS 17 or later. Made and tested on an iPhone 17 Pro; older iPhones may not have enough memory.
+- **Full screen:** the game fills the screen and keeps its buttons clear of the rounded corners, the Dynamic Island and the home bar.
+- **Up to 120 fps** on ProMotion iPhones (60 in Low Power Mode, or while the phone runs hot).
+- **Sound** plays with silent mode on too.
+- **Saves** are in the Files app: **On My iPhone → PvZ Fusion → Save Data**. Copy that folder to back them up.
+- **Not on iPhone:** the Mac's View-menu extras (Fan Music, Hide Metal Objects, Fusion Shortcuts) and keyboard hotkeys. The game's Screen Mode setting is for PC windows and does nothing on a phone.
 
 ## Keyboard shortcuts
 
@@ -105,20 +125,20 @@ Three extras from the PC version, all in the **View** menu:
 
 ## Problems?
 
-Open an [issue](https://github.com/ganiyevuz/PvZ-Fusion-macOS/issues) and include your macOS version and Mac model (for example "macOS 15.2, MacBook Air M2").
+Open an [issue](https://github.com/ganiyevuz/PvZ-Fusion-macOS/issues) and include your macOS version and Mac model (for example "macOS 15.2, MacBook Air M2"), or your iOS version and iPhone model.
 
 ## Credits
 
-- **macOS port** — Jakhongir Ganiev ([jakhongir.dev](https://jakhongir.dev), [@ganiyevuz](https://github.com/ganiyevuz)). The game's own Credits screen lists it too.
+- **macOS & iOS port** — Jakhongir Ganiev ([jakhongir.dev](https://jakhongir.dev), [@ganiyevuz](https://github.com/ganiyevuz)). The game's own Credits screen lists it too.
 - **PvZ Fusion** — the original Chinese fan-made game, by its authors. All game content and assets belong to them.
-- **English translation** — [silvershadowkat/pvzf-android-translation](https://github.com/silvershadowkat/pvzf-android-translation). Each Mac release repackages that project's Android release.
+- **English translation** — [silvershadowkat/pvzf-android-translation](https://github.com/silvershadowkat/pvzf-android-translation). Each release repackages that project's Android release for Mac and iPhone.
 - **ELF loader** — based on the Nintendo Switch port [ChanseyIsTheBest/pvz_fusion_en_nx](https://github.com/ChanseyIsTheBest/pvz_fusion_en_nx).
 - **Music (PC mods' music pack, View → Fan Music)** — Main Menu, Zen Garden - Starry Ceiling, GarZen Flora by Rollerlhite @ https://www.youtube.com/watch?v=aBj1MfvnHPE. Adventure Music - Lumi-Lawn (Day), Undead of the Night (Night), GhOuL pOoL (Pool), Mortemlights (Fog), Praize the Hills (Roof), Brainless Wit, Steamroller, "Boss2" by Xabdi @ https://youtube.com/playlist?list=PLuKXe1tVSw8Sh4K5qrUn65gbRaVNTeqjs&si=heuMbZmlYoAGUf6M. Everything Else - Original Game Soundtrack by Laura Shigihara @ https://www.youtube.com/playlist?list=PLBO2h-GzDvIbpXmK3uTNi6Fe_SE5sTFLY. Music files come from [Teyliu/PVZF-Translation](https://github.com/Teyliu/PVZF-Translation).
 - **Hide Metal Objects and Fusion Shortcuts** — from the PC "Blooms_QOL" mod by Blooms.
 
 ## Sharing or modifying
 
-You're welcome to share this app or build on the port. When you do, **credit Jakhongir Ganiev ([jakhongir.dev](https://jakhongir.dev)) and link to this repository**. The port is MIT-licensed, so its copyright notice and license (inside the app at `Contents/Resources/Licenses/LICENSE.txt`) must stay with any copy or modified version. The DMG also includes a `Credits.txt`.
+You're welcome to share this app or build on the port. When you do, **credit Jakhongir Ganiev ([jakhongir.dev](https://jakhongir.dev)) and link to this repository**. The port is MIT-licensed, so its copyright notice and license (inside the Mac app at `Contents/Resources/Licenses/LICENSE.txt`, inside the iPhone app at `Licenses/LICENSE.txt`) must stay with any copy or modified version. Both also include a `Credits.txt`.
 
 PvZ Fusion's game files and assets are not covered by that license; they belong to their authors.
 
