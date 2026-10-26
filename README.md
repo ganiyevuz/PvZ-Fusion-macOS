@@ -64,9 +64,21 @@ With a free Apple ID the app has to be reinstalled every 7 days to keep opening;
 - **Full screen:** the game fills the screen and keeps its buttons clear of the rounded corners, the Dynamic Island and the home bar.
 - **Up to 120 fps** on ProMotion iPhones (60 in Low Power Mode, or while the phone runs hot).
 - **Sound** plays with silent mode on too.
+- **Vibration** for the big moments: explosions, a lawn mower, a huge wave, winning and losing.
+- **Fan music:** the PC mods' music pack plays in place of the game's own tracks, as with the Mac's Fan Music switch on. Credits are below.
+- **Settings app** (Settings → PvZ Fusion): Frame Rate (120 or 60 fps, which saves battery), Fan Music, Vibration and Check for Updates. Changes apply when you go back to the game.
+- **Updates:** at launch the app looks for a newer version here and offers its download page.
 - **Saves** are in the Files app: **On My iPhone → PvZ Fusion → Save Data**. Copy that folder to back them up.
-- **Fan music:** the PC mods' music pack plays in place of the game's own tracks, as with the Mac's Fan Music switch on (always on; the iPhone has no menu bar). Credits are below.
 - **Not on iPhone:** the Mac's other View-menu extras (Hide Metal Objects, Fusion Shortcuts) and keyboard hotkeys. The game's Screen Mode setting is for PC windows and does nothing on a phone.
+
+### Moving your progress between Mac and iPhone
+
+Both versions keep the same save files, so you can carry your progress across. Quit the game on both first.
+
+- **Mac → iPhone:** connect the iPhone and select it in Finder's sidebar, open the **Files** tab, then drag the contents of `~/Library/Application Support/pvzf/pvzf-macos` (Finder → Go → Go to Folder…) onto **PvZ Fusion** → **Save Data**, replacing what's there.
+- **iPhone → Mac:** the other way: drag the files out of **Save Data** in Finder's **Files** tab into that Mac folder.
+
+Leave out the `il2cpp` and `UnityShaderCache` folders: they're caches the game makes again. Copy what's there first if you might want it back.
 
 ## Keyboard shortcuts
 
